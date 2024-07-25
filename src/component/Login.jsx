@@ -13,11 +13,10 @@ function Login() {
                     <div className="mb-5">
                       <div className="text-center mb-4">
                         <a href="#!">
-                          <img src="./assets/img/bsb-logo.svg" alt="BootstrapBrain Logo" width="175" height="57" />
+                          <img src="./logo.png" alt="Logo" width="90" height="150" />
                         </a>
                       </div>
                       <h2 className="h4 text-center">Login</h2>
-                      <h3 className="fs-6 fw-normal text-secondary text-center m-0">Enter your details to login</h3>
                     </div>
                   </div>
                 </div>
@@ -41,7 +40,7 @@ function Login() {
                           className="btn bsb-btn-xl" 
                           type="submit" 
                           style={{ 
-                            background: 'linear-gradient(to right, #b927fc 0%, #2c64fc 100%)', 
+                            background: 'linear-gradient(to right, #000000 0%, #ff0000 100%)', 
                             border: 'none',
                             color: 'white'
                           }}
@@ -55,7 +54,7 @@ function Login() {
                 <div className="row">
                   <div className="col-12">
                     <hr className="mt-5 mb-4 border-secondary-subtle" />
-                    <p className="m-0 text-secondary text-center">Don't have an account? <a href="#!" className="link-primary text-decoration-none">Sign up</a></p>
+                    <p className="m-0 text-secondary text-center">Don't have an account? <a href="Signup" className="link-primary text-decoration-none">Sign up</a></p>
                   </div>
                 </div>
                 <div className="row">
