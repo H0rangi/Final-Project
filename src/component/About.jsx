@@ -10,6 +10,7 @@ function About() {
     In honor of Zyzz, we've created an environment that embodies his philosophy: to train hard, stay aesthetic, and enjoy life to the fullest. Join us at Zyzz Gym, and let's make gains together, for Zyzz, for ourselves, and for the brotherhood of fitness enthusiasts worldwide.
     </p>
     <h2>"WE'RE ALL GONNA MAKE IT, BRO!"</h2>
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fexternal-preview.redd.it%2F7yqbsULWHuSdDqUM0TCLs-b-fFtb0NtFWk3ddMlAnkY.jpg%3Fauto%3Dwebp%26s%3Dddddd1162ad71c7754f654048ef5ef0ea59a69ab&f=1&nofb=1&ipt=91a2bffff2f1a35f902555ef13f1eeecada8e22253642dad0814d660d07ae243&ipo=images"></img>
     </div>
   )
 }

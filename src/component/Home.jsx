@@ -1,18 +1,19 @@
-import React from 'react'
+import React from 'react';
 
 function Home() {
   return (
-    <div>
-      <h1>Welcome to Zyzz Gym</h1>
+    <div style={styles.container}>
+      <div style={styles.textContainer}>
+        <h1>Welcome to Zyzz Gym</h1>
         <p>Embrace the spirit of transformation and fitness excellence at Zyzz Gym. As a tribute to the legendary Zyzz, we are dedicated to helping you achieve your fitness goals in an inspiring and supportive environment. Join our community and start your journey towards becoming the best version of yourself.</p>
         <h2>Our Mission</h2>
         <p>At Zyzz Gym, our mission is to provide a space where everyone, regardless of their fitness level, can pursue their health and fitness goals with passion and determination. We strive to create an inclusive community that fosters motivation, growth, and the aesthetic lifestyle that Zyzz championed.</p>
         <h2>Why Zyzz Gym?</h2>
         <ul>
-            <li><strong>Legacy of Inspiration:</strong> We honor the legacy of Zyzz by promoting his philosophy of hard work, aesthetics, and enjoying life. Our gym is more than just a place to work out; it's a tribute to a fitness icon.</li>
-            <li><strong>State-of-the-Art Facilities:</strong> Train with the best equipment and in a top-notch facility designed to help you achieve peak performance.</li>
-            <li><strong>Expert Guidance:</strong> Our certified trainers and nutritionists are here to support and guide you on your fitness journey.</li>
-            <li><strong>Community:</strong> Join a vibrant community of fitness enthusiasts who share your passion and drive.</li>
+          <li><strong>Legacy of Inspiration:</strong> We honor the legacy of Zyzz by promoting his philosophy of hard work, aesthetics, and enjoying life. Our gym is more than just a place to work out; it's a tribute to a fitness icon.</li>
+          <li><strong>State-of-the-Art Facilities:</strong> Train with the best equipment and in a top-notch facility designed to help you achieve peak performance.</li>
+          <li><strong>Expert Guidance:</strong> Our certified trainers and nutritionists are here to support and guide you on your fitness journey.</li>
+          <li><strong>Community:</strong> Join a vibrant community of fitness enthusiasts who share your passion and drive.</li>
         </ul>
         <h2>Start Your Journey Today</h2>
         <p>Ready to take the first step? Whether you're aiming to build muscle, lose weight, or simply improve your overall fitness, Zyzz Gym has everything you need to succeed. Explore our services, meet our trainers, and become part of our community. Together, we'll make gains and honor the legacy of Zyzz.</p>
@@ -22,8 +23,32 @@ function Home() {
         <p>Hear from our members about their experiences at Zyzz Gym. Their stories of transformation and achievement are a testament to the supportive and motivating environment we've cultivated.</p>
         <h2>Join Us</h2>
         <p>Take the first step towards your fitness goals and become part of the Zyzz Gym family. Sign up for a free trial, book a tour, or <a href="contact.html">contact us</a> for more information. We can't wait to welcome you and help you embark on your journey to greatness.</p>
+      </div>
+      <div style={styles.imageContainer}>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F5d%2Fe5%2Fdc%2F5de5dcea3f8f02a1496f023830ba645e.jpg&f=1&nofb=1&ipt=2279ce34ab6162518d0c8a5984878af839fba09fe3e6c702ebafb49caaca1751&ipo=images" alt="Zyzz Gym" style={styles.image} />
+      </div>
     </div>
-  )
+  );
 }
 
-export default Home
+const styles = {
+  container: {
+    display: 'flex',
+    alignItems: 'flex-start',
+    padding: '20px',
+  },
+  textContainer: {
+    flex: 2,
+    marginRight: '20px',
+  },
+  imageContainer: {
+    flex: 1,
+  },
+  image: {
+    width: '100%',
+    height: 'auto',
+    borderRadius: '8px',
+  },
+};
+
+export default Home;

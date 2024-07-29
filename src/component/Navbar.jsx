@@ -30,6 +30,12 @@ const Navbar = () => {
             <Link to="/services" onClick={toggleMenu}>Services</Link>
           </li>
           <li>
+            <Link to="/schedule" onClick={toggleMenu}>Schedule</Link>
+          </li>
+          <li>
+            <Link to="/merch" onClick={toggleMenu}>Merch</Link>
+          </li>
+          <li>
             <Link to="/about" onClick={toggleMenu}>About</Link>
           </li>
         </ul>
